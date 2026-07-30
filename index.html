@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student ID Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student ID Card</h2>
+
+<p><b>Name:</b> Asmita Chavan</p>
+<p><b>Roll Number:</b> A29</p>
+<p><b>Subject:</b> Advanced Web Technology</p>
+<p><b>Subject Code:</b> 23UITPCL3508</p>
+
+
+<form id="myForm">
+
+<label>Name</label><br>
+<input type="text" id="name"><br><br>
+
+<label>Roll Number</label><br>
+<input type="text" id="roll"><br><br>
+
+<label>Department</label><br>
+<input type="text" id="dept"><br><br>
+
+<label>Email</label><br>
+<input type="email" id="email"><br><br>
+
+<button type="button" onclick="validateForm()">
+Generate ID Card
+</button>
+
+</form>
+
+<hr>
+
+<h3>Student Details</h3>
+
+<p>Name : <span id="dname"></span></p>
+
+<p>Roll Number : <span id="droll"></span></p>
+
+<p>Department : <span id="ddept"></span></p>
+
+<p>Email : <span id="demail"></span></p>
+
+<h3 id="result"></h3>
+
+<h3>Preferred Technologies</h3>
+
+<ul id="tech"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
